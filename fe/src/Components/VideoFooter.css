@@ -1,0 +1,45 @@
+.video__Footer {
+}
+.videoFooter__Text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+}
+.videoFooter__Text > h3 {
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+.videoFooter__Text > h3 >button {
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    background-color: transparent ;
+    border: none;
+}
+
+.videoFooter__actions{
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    width: 90%;
+    color: white;
+    justify-content: space-between;
+}
+
+.videoFooter__actionsLeft > .MuiSvgIcon-root{
+    padding: 0 10px;
+}
+.videoFooter__actions > .videoFooter__actionsLeft > i {
+    font-size:45px !important;;
+
+}
+.videoFooter__actionsright{
+    /* display: flex; */
+}
+.videoFooter__stat{
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-right: 10px; */
+}

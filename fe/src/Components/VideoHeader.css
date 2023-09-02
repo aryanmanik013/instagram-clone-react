@@ -1,0 +1,12 @@
+.video__Header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  /* font-weight: bolder; */
+}
+.video__Header > *{
+    padding: 20px;
+}
